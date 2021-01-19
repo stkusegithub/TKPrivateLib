@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
   # spec.tvos.deployment_target = "9.0"
 
 
-  spec.source_files  = "TKPrivateLib", "TKPrivateLib/Classes/**/*"
+  spec.source_files  = "TKPrivateLib/Classes/**/*"
 
   # spec.exclude_files = "Classes/Exclude"
   # spec.public_header_files = "Classes/**/*.h"
