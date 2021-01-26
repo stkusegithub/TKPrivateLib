@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
 
   # spec.source_files  = "TKPrivateLib/Classes/**/*"
   # 文件分层
-  s.subspec 'Helper' do |ss|
+  spec.subspec 'Helper' do |ss|
     ss.source_files = 'TKPrivateLib/Classes/Helper/*.{h,m}'
   end
 
