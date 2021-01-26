@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "TKPrivateLib"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A short description of TKPrivateLib."
   spec.homepage     = "https://github.com/stkusegithub/TKPrivateLib"
   spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
