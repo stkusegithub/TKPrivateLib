@@ -35,7 +35,7 @@ Pod::Spec.new do |spec|
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
-  # spec.library   = "iconv"
+    spec.library   = "Helper"
   # spec.libraries = "iconv", "xml2"
 
   # spec.requires_arc = true
