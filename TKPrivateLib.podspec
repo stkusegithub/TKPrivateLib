@@ -24,9 +24,13 @@ Pod::Spec.new do |spec|
   # spec.tvos.deployment_target = "9.0"
 
 
-  spec.source_files  = "TKPrivateLib/Classes/**/*"
+  # spec.source_files  = "TKPrivateLib/Classes/**/*"
+  # 文件分层
+  s.subspec 'Helper' do |ss|
+    ss.source_files = 'TKPrivateLib/Classes/Helper/*.{h,m}'
+  end
 
-    spec.exclude_files = "Classes/Helper"
+  # spec.exclude_files = "Classes/Exclude"
   # spec.public_header_files = "Classes/**/*.h"
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
