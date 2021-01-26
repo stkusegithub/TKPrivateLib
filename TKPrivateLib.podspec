@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "TKPrivateLib/Classes/**/*"
 
-  # spec.exclude_files = "Classes/Exclude"
+    spec.exclude_files = "Classes/Helper"
   # spec.public_header_files = "Classes/**/*.h"
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
@@ -35,7 +35,7 @@ Pod::Spec.new do |spec|
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
-    spec.library   = "Helper"
+  # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
 
   # spec.requires_arc = true
